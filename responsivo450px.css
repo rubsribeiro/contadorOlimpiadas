@@ -1,0 +1,69 @@
+@media(max-width:450px) {
+    
+    body, html {
+        margin: 0;
+        background-image: none;
+        gap: 30px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .logo__jogos {
+        margin: 1rem;
+        width: 30%;
+    }
+
+    .titulo {
+        padding: 10px;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .texto {
+        margin: 0;
+        text-align: center;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .texto__item {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .esportes {
+        margin: 1.98rem;
+    }
+
+    .mascote {
+        display: none;
+    }
+
+    .icones__esportes {
+        margin-bottom: 30px;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .mais__esportes a{
+        text-decoration: none;
+    }
+
+    .mais__esportes:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+    footer {
+        position: absolute;
+    }
+
+}

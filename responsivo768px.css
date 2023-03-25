@@ -1,0 +1,43 @@
+@media (min-width:768px) and (max-width: 1024px) {
+
+    body,html {
+        background-image: none;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .logo__jogos {
+        width: 20%;
+    }
+
+    .titulo {
+        margin: 1rem;
+        padding: 10px;
+        font-size: 3rem;
+    }
+
+    .texto {
+        margin: 0;
+    }
+
+    .esportes {
+        margin: 3rem;
+    }
+
+    ul .icones__esportes {
+        gap: 20px;
+        margin: 2rem;
+    }
+
+    .mais__esportes {
+        font-size: 2rem;
+    }
+
+    .mascote {
+        display: none;
+    }
+
+    footer {
+        position: absolute;
+    }
+}

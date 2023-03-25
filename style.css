@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(./imagens/bg\ -\ Editado.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.logo .link {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__jogos {
+    width: 15%;
+    margin-top: 5rem;
+}
+
+.logo__jogos:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.titulo {
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+    font-size: 3rem;
+    background-color: #d9c27e67;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+
+span {
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    color:#0084C9;
+}
+
+.item  {
+    margin: 0 0 1rem 3rem;
+    font-size: 3rem;
+}
+
+.texto__item {
+    color: #000000;
+    font-size: 2rem;
+    margin: 0 0 1rem 3rem;
+}
+
+
+.texto {
+    margin: 2rem 0 1rem 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+
+.esportes {
+    margin: 7rem;
+}
+
+.icone {
+    width: 3rem;
+}
+
+.icones__esportes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+.icone__futebol:hover, .icone__ciclismo:hover, .icone__atletismo:hover, .icone__natacao:hover, .icone__peso:hover, .icone__tenis:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.mais__esportes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#d9c27e67;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mais__esportes a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mais__esportes:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.logo__mascote {
+    align-items: center;
+    width: 50%;
+}
+
+.mascote {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    bottom: 5px;
+    width: 100%;
+    position: relative;
+    background-color:#d9c27e2f;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    list-style: none;
+}
+
