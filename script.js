@@ -3,7 +3,7 @@ const itemhoras = document.getElementById('horas');
 const itemminutos = document.getElementById('minutos');
 const itemsegundos = document.getElementById('segundos');
 
-const jogosOlimpicos = '26 Jul 2024';
+const jogosOlimpicos = '27 Jul 2024';
 
 function contador() {
     const novaData = new Date (jogosOlimpicos);
