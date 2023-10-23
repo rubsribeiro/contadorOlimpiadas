@@ -5,7 +5,7 @@ Contador criado para fins de estudo.
 
 #
 
-![contador-novo](https://github.com/rubsribeiro/contadorOlimpiadas/assets/110606629/3a4b81b6-2e90-4e06-906d-48cd620f4f28)
+![paris2024](https://github.com/rubsribeiro/contadorOlimpiadas/assets/110606629/36f65da0-09ba-4a2c-9e79-fc939fdfff40)
 
 
 #
